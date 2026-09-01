@@ -1,0 +1,149 @@
+/* ============================================
+   JETSLOT - CSS PREMIUM
+   ============================================ */
+
+/* ----- 1. GLOBAL ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #0A1628 0%, #1A2A4A 50%, #0A1628 100%);
+}
+
+/* ----- 2. TYPOGRAPHIE ----- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+h1 { color: #FFD700 !important; text-shadow: 0 0 30px rgba(255, 215, 0, 0.2); }
+h2 { color: #F4A460 !important; }
+p, div, span, label { color: #B8C6E0; font-family: 'Arial', sans-serif; }
+.stCaption { color: #6C6F78 !important; }
+
+/* ----- 3. SIDEBAR PREMIUM ----- */
+.css-1d391kg, .css-163i33w {
+    background: linear-gradient(180deg, #0A1628 0%, #1A2A4A 100%) !important;
+    border-right: 1px solid rgba(255, 215, 0, 0.1) !important;
+}
+
+/* ----- 4. MENU SIDEBAR ----- */
+.stRadio label {
+    color: #B8C6E0 !important;
+    font-size: 15px !important;
+    padding: 8px 12px !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+    font-weight: 400 !important;
+}
+
+.stRadio label:hover {
+    background: rgba(255, 215, 0, 0.1) !important;
+    transform: translateX(5px);
+}
+
+.stRadio [data-baseweb="radio"] input:checked + div {
+    background-color: #FFD700 !important;
+}
+
+.stRadio .stRadioSelected {
+    background: linear-gradient(90deg, #FFD700, #F4A460) !important;
+    color: #0A1628 !important;
+    font-weight: 700 !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+}
+
+/* ----- 5. BOUTONS ----- */
+.stButton button {
+    background: linear-gradient(135deg, #FFD700, #F4A460) !important;
+    color: #0A1628 !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    padding: 12px 30px !important;
+    border: none !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.3) !important;
+}
+
+/* ----- 6. MÉTRIQUES ----- */
+.stMetric {
+    background: linear-gradient(135deg, #1A2A4A, #0A1628) !important;
+    border: 1px solid rgba(255, 215, 0, 0.2) !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.stMetric .stMetricValue {
+    color: #FFD700 !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+}
+
+/* ----- 7. DIVIDERS ----- */
+hr {
+    border: none !important;
+    height: 1px !important;
+    background: linear-gradient(90deg, transparent, #FFD700, transparent) !important;
+    margin: 30px 0 !important;
+}
+
+/* ----- 8. INPUTS ----- */
+input, textarea, select {
+    background: #1A2A4A !important;
+    border: 1px solid rgba(255, 215, 0, 0.2) !important;
+    border-radius: 8px !important;
+    color: #B8C6E0 !important;
+    padding: 10px !important;
+}
+
+input:focus, textarea:focus {
+    border-color: #FFD700 !important;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.1) !important;
+}
+
+/* ----- 9. SCROLLBAR ----- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0A1628; }
+::-webkit-scrollbar-thumb { background: #FFD700; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #F4A460; }
+
+/* ----- 10. EXPANDERS ----- */
+.streamlit-expanderHeader {
+    background: #1A2A4A !important;
+    border-radius: 8px !important;
+    border-left: 3px solid #FFD700 !important;
+    color: #B8C6E0 !important;
+    font-weight: 600 !important;
+}
+
+/* ----- 11. TABLEAUX ----- */
+table {
+    background: #0A1628 !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+th { background: #FFD700 !important; color: #0A1628 !important; padding: 12px !important; }
+td { padding: 10px !important; border-bottom: 1px solid rgba(255,215,0,0.1) !important; color: #B8C6E0 !important; }
+
+/* ----- 12. FOOTER ----- */
+.footer {
+    text-align: center;
+    color: #4A4F58;
+    font-size: 12px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 215, 0, 0.1);
+    letter-spacing: 1px;
+}

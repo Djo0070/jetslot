@@ -1,0 +1,16 @@
+streamlit
+google-generativeai
+python-dotenv
+pillow
+requests
+pyrebase4
+google-cloud-firestore
+google-auth
+pandas
+plotly
+folium
+streamlit-folium
+qrcode>=7.4.0
+Pillow>=10.0.0
+streamlit-folium>=0.15.0
+folium>=0.14.0
